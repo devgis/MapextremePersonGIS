@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 6
+    NAME Char (128) ;
+    PYNAME Char (128) ;
+    ADMINCODE Char (6) ;
+    CityCode Char (6) ;
+    PROMICENAME Char (45) ;
+    KIND Char (4) ;

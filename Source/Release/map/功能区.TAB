@@ -1,0 +1,15 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 8
+    NAME Char (128) ;
+    PYNAME Char (128) ;
+    MAPID Char (8) ;
+    ID Char (13) ;
+    KIND Char (4) ;
+    ADMINCODE Char (6) ;
+    AOICODE Char (13) ;
+    DISPCLASS Char (1) ;

@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 6
+    TOOLTIP Char (254) ;
+    NAME Char (128) ;
+    PYNAME Char (128) ;
+    ADMINCODE Char (6) ;
+    KIND Char (4) ;
+    VALUE Float ;

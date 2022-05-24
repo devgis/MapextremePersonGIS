@@ -1,0 +1,31 @@
+!table
+!version 300
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 24
+    NAME Char (128) ;
+    PYNAME Char (128) ;
+    MAPID Char (8) ;
+    KIND Char (4) ;
+    ZIPCODE Char (6) ;
+    TELEPHONE Char (200) ;
+    ADMINCODE Char (6) ;
+    DISPLAY_X Char (12) ;
+    DISPLAY_Y Char (12) ;
+    POI_ID Char (13) ;
+    IMPORTANCE Char (1) ;
+    VADMINCODE Char (12) ;
+    CHAINCODE Char (4) ;
+    PRIOR_AUTH Char (6) ;
+    LINKID Char (13) ;
+    SIDE Char (1) ;
+    PID Char (15) ;
+    TEL_TYPE Char (200) ;
+    FOOD_TYPE Char (50) ;
+    AIRPT_CODE Char (3) ;
+    OPEN_24H Char (1) ;
+    DATA_SRC Char (1) ;
+    MESH_ID Char (8) ;
+    ADDRESS Char (254) ;

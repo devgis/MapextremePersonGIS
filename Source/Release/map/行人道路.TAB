@@ -1,0 +1,48 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 41
+    NAME Char (128) ;
+    PYNAME Char (128) ;
+    MAPID Char (8) ;
+    ID Char (13) ;
+    KIND_NUM Char (2) ;
+    KIND Char (30) ;
+    WIDTH Char (3) ;
+    DIRECTION Char (1) ;
+    TOLL Char (1) ;
+    CONST_ST Char (1) ;
+    UNDCONCRID Char (13) ;
+    SNODEID Char (13) ;
+    ENODEID Char (13) ;
+    FUNCCLASS Char (2) ;
+    LENGTH Char (8) ;
+    DETAILCITY Char (1) ;
+    THROUGH Char (1) ;
+    UNTHRUCRID Char (13) ;
+    OWNERSHIP Char (1) ;
+    ROAD_COND Char (1) ;
+    SPECIAL Char (1) ;
+    ADMINCODEL Char (6) ;
+    ADMINCODER Char (6) ;
+    UFLAG Char (1) ;
+    ONEWAYCRID Char (13) ;
+    ACCESSCRID Char (13) ;
+    SPEEDCLASS Char (1) ;
+    LANENUMS2E Char (2) ;
+    LANENUME2S Char (2) ;
+    LANENUM Char (1) ;
+    VEHCL_TYPE Char (32) ;
+    ELEVATED Char (1) ;
+    STRUCTURE Char (1) ;
+    USEFEECRID Char (13) ;
+    USEFEETYPE Char (1) ;
+    SPDLMTS2E Char (4) ;
+    SPDLMTE2S Char (4) ;
+    SPDSRCS2E Char (1) ;
+    SPDSRCE2S Char (1) ;
+    DC_TYPE Char (1) ;
+    NOPASSCRID Char (13) ;
